@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito_miprimer_proyecto_android"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:text="@string/titulo"
+        android:textAllCaps="false"
+        android:textColor="#FAF7F7"
+        android:textColorLink="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="126dp"
+        android:layout_height="51dp"
+        android:text="@string/boton"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#FAF8F8"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:text="@string/boton" />
+
+</android.support.constraint.ConstraintLayout>
